@@ -3,10 +3,20 @@ require_relative 'app/menu/menu.rb'
 require 'rest-client'
 require 'json'
 
-name = gets('NAME > ')
-password = gets('PPASSWORD > ')
-if password == '1234'
-    return { message => 'sucess' }
-else
-    return { message => 'not found'}
+# print 'NAME > '
+# name = gets
+# print 'PASSWORD > '
+# password = gets
+# if password == '1234'
+#     return password
+# else
+#     return
+# end
+while true
+    system ('clear')
+    menu()
+    op = gets.chomp.to_i
+    if op == 1
+        cep()
+    end
 end

@@ -2,7 +2,9 @@ require 'rest-client'
 require 'json'
 
 def cep
-    req = "https://viacep.com.br/ws/01001000/json/"
+    print "CEP > "
+    cep = gets.chomp
+    req = "https://viacep.com.br/ws/#{cep}/json/"
     r = RestClient.get "#{req}"
     ret = JSON.parse(r.body)
     ret.each do |key, value|
