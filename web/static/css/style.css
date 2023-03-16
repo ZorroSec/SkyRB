@@ -14,3 +14,8 @@ body{
     justify-content: center;
     padding: 10px;
 }
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
