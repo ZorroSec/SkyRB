@@ -4,3 +4,13 @@
     box-sizing: border-box;
     font-family: 'Kanit', sans-serif;
 }
+body{
+    background-color: #272727;
+    color: #fff;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
