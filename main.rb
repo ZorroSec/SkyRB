@@ -14,14 +14,16 @@ require 'json'
 # else
 #     return
 # end
+# system ('cls')
 while true
-    system ('clear')
     menu()
     op = gets.chomp.to_i
     if op == 1
+        system ('cls')
         cep()
     end
     if op == 2
+        system ('cls')
         ip()
     end
 end

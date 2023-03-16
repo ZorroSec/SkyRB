@@ -1,4 +1,5 @@
 def menu()
+    system ('cls')
     menu = "
     l---------------------------l
     l \033[1;31mchoose one of the options\033[m l
@@ -6,7 +7,6 @@ def menu()
     l        [ 01 ] Cep         l
     l        [ 02 ] Ip          l
     =-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-
-    "
-    puts menu
+    >> "
+    print menu
 end
