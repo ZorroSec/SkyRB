@@ -1,7 +1,7 @@
-require_relative 'app/commands/cep.rb'
-require_relative 'app/menu/menu.rb'
-require_relative 'app/commands/ip.rb'
-require_relative 'app/commands/back.rb'
+require_relative 'commands/cep.rb'
+require_relative 'menu/menu.rb'
+require_relative 'commands/ip.rb'
+require_relative 'commands/back.rb'
 require 'rest-client'
 require 'json'
 
