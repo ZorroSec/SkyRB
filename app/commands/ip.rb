@@ -1,12 +1,13 @@
 require 'rest-client'
 require 'json'
-require_relative 'app/commands/back.rb'
+require_relative 'back.rb'
 def ip
     print 'IP > '
     ip = gets.chomp
-    r = RestClient.get "http://ip-api.com/json/#{ip}"
-    json = JSON.parse(r.body)
-    json.each do |key, value|
+    api = "http://ip-api.com/json/#{ip}"
+    r = RestClient.get "#{api}"
+    ret = JSON.parse(r.body)
+    ret.each do |key, value|
         puts "#{key} => #{value}"
     end
     back()
