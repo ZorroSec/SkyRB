@@ -1,6 +1,6 @@
 require 'rest-client'
 require 'json'
-
+require_relative 'app/commands/back.rb'
 def ip
     print 'IP > '
     ip = gets.chomp
@@ -9,4 +9,5 @@ def ip
     json.each do |key, value|
         puts "#{key} => #{value}"
     end
+    back()
 end

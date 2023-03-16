@@ -1,5 +1,7 @@
 require_relative 'app/commands/cep.rb'
 require_relative 'app/menu/menu.rb'
+require_relative 'app/commands/ip.rb'
+require_relative 'app/commands/back.rb'
 require 'rest-client'
 require 'json'
 
@@ -18,5 +20,8 @@ while true
     op = gets.chomp.to_i
     if op == 1
         cep()
+    end
+    if op == 2
+        ip()
     end
 end
