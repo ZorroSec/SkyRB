@@ -13,6 +13,7 @@ menu() {
     case $op in
         1) ruby app/app.rb
         ;;
+        2) python3 web/app.py
     esac
 }
 
