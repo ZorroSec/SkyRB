@@ -1,21 +1,19 @@
-const cep = document.getElementById('cep').value
+const cep = document.getElementById('cep')
 const btn = document.getElementById('btn')
 const ret = document.getElementById('return')
 
 if(btn){
     btn.onclick = ()=>{
-        fetch("https://viacep.com.br/ws/"+cep+"/json/", {
-            "mode": 'no-cors',
-            "Access-Control-Allow-Origin" : "*", 
-            "Access-Control-Allow-Credentials" : true 
-        }).then((res)=>{
-            return res.json()
-            res.set({
-                "Content-Type": "application/json",
-                "Access-Control-Allow-Origin": "*",
-            });
-        }).then((data)=>{
-            ret.innerHTML=`<i>${data["logradouro"]}</i>`
+        fetch("https://viacep.com.br/ws/"+cep.value+"/json/").then((res)=>{
+            res.json().then((data)=>{
+                ret.innerHTML=`
+                <div class='returnBusca'>
+                    <div class='cep'>
+                        <h5>${data.cep}</h5>
+                    </div>
+                </div>
+                `
+            })
         })
     }
 }
