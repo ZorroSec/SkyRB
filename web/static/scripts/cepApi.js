@@ -20,7 +20,7 @@ if(btn){
                             Ibge => ${data.ibge}<br>
                             Localidade => ${data.localidade}<br>
                             Logradouro => ${data.logradouro}<br>
-                            Siafi => ${data.siafi}
+                            Siafi => ${data.siafi}<br>
                             Uf => ${data.uf}
                         </code>
                     </div>
