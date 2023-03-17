@@ -11,7 +11,7 @@
     <script src="../static/scripts/app.js"></script>
     <title>SkyRB - Web</title>
 </head>
-<body>
+<body onload="timezone()">
     <header class="header">
         <div class="logo">
             <h2>SkyRB</h2>
@@ -28,7 +28,9 @@
 
         </div>
     </section>
-
+    <footer>
+        <div id="getHours"></div>
+    </footer>
     <script src="../static/scripts/ipApi.js"></script>
 </body>
 </html>
