@@ -14,6 +14,21 @@ body{
     justify-content: center;
     padding: 10px;
 }
+.conteiner{
+    margin: auto;
+    width: 55%;
+}
+.conteiner .column{
+    background: #f2f2f2;
+    padding: 10px;
+    color: black;
+    border-radius: 10px;
+    box-shadow:  0 0 2.2em rgba(25,25,25.3);
+    margin-bottom: 10px;
+}
+
+
+
 footer{
     display: flex;
     align-items: center;
