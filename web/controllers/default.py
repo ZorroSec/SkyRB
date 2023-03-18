@@ -10,6 +10,11 @@ def index():
 @app.route('/home', methods=['GET', 'POST'])
 def homepage():
     return render_template('index.html')
+
 @app.route('/cep', methods=['GET','POST'])
 def cep():
     return render_template('cep.html')
+
+@app.route('/ip', methods=['GET', 'POST'])
+def ip():
+    return render_template('ip.html')
