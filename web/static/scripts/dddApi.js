@@ -1,6 +1,6 @@
 const ddd = document.getElementById('ddd')
 const btn = document.getElementById('btn')
-const ret = document.getElementById('ret')
+const ret = document.getElementById('return')
 
 if(btn){
     btn.onclick = ()=>{
@@ -10,7 +10,7 @@ if(btn){
                     ret.innerHTML+=`
                     <div class='returnBusca'>
                         <div class='ddd'>
-                            <i>Cities => ${data.cities[i]}</i>
+                            <i>Citie => ${data.cities[i]}</i>
                         </div>
                     </div>
                     `
