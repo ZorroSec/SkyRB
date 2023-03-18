@@ -18,3 +18,7 @@ def cep():
 @app.route('/ip', methods=['GET', 'POST'])
 def ip():
     return render_template('ip.html')
+
+@app.route('/cnpj', methods=['GET', 'POST'])
+def cnpj():
+    return render_template('cnpj.html')
