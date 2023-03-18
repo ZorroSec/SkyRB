@@ -22,3 +22,7 @@ def ip():
 @app.route('/cnpj', methods=['GET', 'POST'])
 def cnpj():
     return render_template('cnpj.html')
+
+@app.route('/ddd', methods=['GET', 'POST'])
+def ddd():
+    return render_template('ddd.html')
