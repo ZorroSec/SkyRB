@@ -29,4 +29,4 @@ def ddd():
 
 @app.route('/localidade', methods=['GET', 'POST'])
 def localidades():
-    return render_template('localidades.html')
+    return render_template('localidade.html')
