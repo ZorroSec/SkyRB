@@ -26,3 +26,7 @@ def cnpj():
 @app.route('/ddd', methods=['GET', 'POST'])
 def ddd():
     return render_template('ddd.html')
+
+@app.route('/localidade', methods=['GET', 'POST'])
+def localidades():
+    return render_template('localidades.html')
