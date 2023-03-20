@@ -3,6 +3,7 @@ require_relative 'menu/menu.rb'
 require_relative 'commands/ip.rb'
 require_relative 'commands/back.rb'
 require_relative 'commands/cepV2.rb'
+require_relative 'commands/corretoras.rb'
 require_relative 'commands/cnpj.rb'
 require 'rest-client'
 require 'json'
@@ -36,4 +37,7 @@ while true
         system ('cls||clear')
         cepv2()
     end
+    if op == 5
+        system ('cls||clear')
+        corretoras()
 end
