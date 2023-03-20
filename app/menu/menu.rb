@@ -7,6 +7,7 @@ def menu()
     l        [ 01 ] Cep         l
     l        [ 02 ] Ip          l
     l        [ 03 ] Cnpj        l
+    l        [ 04 ] Cep V2      l
     =-=-=-=-=-=-=-=-=-=-=-=-=-=-=
     >> "
     print menu
