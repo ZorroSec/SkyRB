@@ -30,4 +30,5 @@ while true
     if op == 3
         system ('cls||clear')
         cnpj()
+    end
 end
