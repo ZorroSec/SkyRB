@@ -9,4 +9,5 @@ def cnpj
     ret.each do |key,value|
         puts "#{key} => #{value}"
     end
+    back()
 end
