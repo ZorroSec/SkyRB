@@ -2,6 +2,7 @@ require_relative 'commands/cep.rb'
 require_relative 'menu/menu.rb'
 require_relative 'commands/ip.rb'
 require_relative 'commands/back.rb'
+require_relative 'commands/cepV2.rb'
 require_relative 'commands/cnpj.rb'
 require 'rest-client'
 require 'json'
@@ -30,5 +31,9 @@ while true
     if op == 3
         system ('cls||clear')
         cnpj()
+    end
+    if op == 4
+        system ('cls||clear')
+        cepv2()
     end
 end
