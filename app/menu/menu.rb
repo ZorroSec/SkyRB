@@ -10,6 +10,7 @@ def menu()
     l        [ 04 ] Cep V2      l
     l        [ 05 ] Corretoras  l
     l        [ 06 ] Cptec       l
+    l        [ 00 ] Exit        l
     =-=-=-=-=-=-=-=-=-=-=-=-=-=-=
     >> "
     print menu
