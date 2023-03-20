@@ -9,6 +9,7 @@ def menu()
     l        [ 03 ] Cnpj        l
     l        [ 04 ] Cep V2      l
     l        [ 05 ] Corretoras  l
+    l        [ 06 ] Cptec       l
     =-=-=-=-=-=-=-=-=-=-=-=-=-=-=
     >> "
     print menu
