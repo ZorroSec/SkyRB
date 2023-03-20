@@ -2,6 +2,7 @@ require_relative 'commands/cep.rb'
 require_relative 'menu/menu.rb'
 require_relative 'commands/ip.rb'
 require_relative 'commands/back.rb'
+require_relative 'commands/cnpj.rb'
 require 'rest-client'
 require 'json'
 
@@ -19,11 +20,14 @@ while true
     menu()
     op = gets.chomp.to_i
     if op == 1
-        system ('cls')
+        system ('cls||clear')
         cep()
     end
     if op == 2
-        system ('cls')
+        system ('cls||clear')
         ip()
     end
+    if op == 3
+        system ('cls||clear')
+        cnpj()
 end
