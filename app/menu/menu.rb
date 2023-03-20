@@ -8,6 +8,7 @@ def menu()
     l        [ 02 ] Ip          l
     l        [ 03 ] Cnpj        l
     l        [ 04 ] Cep V2      l
+    l        [ 05 ] Corretoras  l
     =-=-=-=-=-=-=-=-=-=-=-=-=-=-=
     >> "
     print menu
