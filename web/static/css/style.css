@@ -107,6 +107,10 @@ body{
     margin-left: 10px;
     margin-right: 10px;
 }
+.cnpj{
+    border: 1px solid #000;
+    padding: 10px;
+}
 .conteinerDdd{
     margin: auto;
     width: 55%;
