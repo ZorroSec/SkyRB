@@ -31,6 +31,6 @@ def ddd():
 def localidades():
     return render_template('localidade.html')
 
-@app.route('/banks', methods=['GET', 'POST'])
+@app.route('/bank', methods=['GET', 'POST'])
 def banks():
     return render_template('banks.html')
