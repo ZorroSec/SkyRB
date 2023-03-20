@@ -1,8 +1,8 @@
 require 'rest-client'
 require 'json'
 require_relative '../back.rb'
-require_relative 'cptec/city.rb'
-require_relative 'cptec/clima.rb'
+require_relative 'cptecCmds/city.rb'
+require_relative 'cptecCmds/clima.rb'
 def menuCptec
 	menu = "
 	l---------------------------l
