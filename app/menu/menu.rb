@@ -1,5 +1,5 @@
 def menu()
-    system ('cls')
+    system ('cls||clear')
     menu = "
     l---------------------------l
     l \033[1;31mchoose one of the options\033[m l
